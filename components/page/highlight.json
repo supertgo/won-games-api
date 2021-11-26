@@ -2,13 +2,14 @@
   "collectionName": "components_page_highlights",
   "info": {
     "name": "highlight",
-    "icon": "star"
+    "icon": "star",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "subtitle": {
       "type": "text",
@@ -21,7 +22,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "floatImage": {
       "model": "file",
@@ -30,7 +32,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "buttonLabel": {
       "type": "string",
