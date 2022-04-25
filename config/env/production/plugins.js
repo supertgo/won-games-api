@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
       },
     },
     settings: {
-      defaultFrom: "thiagoroberto2003@gmail.com",
+      defaultFrom: "wongames@gmail.com",
       defaultReplyTo: "contact@gmail.com",
     },
   },
